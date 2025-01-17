@@ -2,8 +2,8 @@ const Fastify = require("fastify");
 const server = Fastify();
 
 server.register(require("@fastify/http-proxy"), {
-	upstream: "https://shuttleproxy.com",
-	prefix: "/",
+	upstream: "https://tiktok.com",
+	prefix: "/members",
 	http2: false,
 });
 
